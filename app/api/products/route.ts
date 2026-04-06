@@ -1,21 +1,11 @@
 import { NextResponse } from 'next/server';
-import fs from 'fs';
-import path from 'path';
-
-const dataFilePath = path.join(process.cwd(), 'data', 'products.json');
-
-function readData() {
-    const jsonData = fs.readFileSync(dataFilePath, 'utf8');
-    return JSON.parse(jsonData);
-}
-
-function writeData(data: any) {
-    fs.writeFileSync(dataFilePath, JSON.stringify(data, null, 2), 'utf8');
-}
+import dbConnect from '@/lib/mongodb';
+import Product from '@/lib/models/Product';
 
 export async function GET() {
     try {
-        const data = readData();
+        await dbConnect();
+        const data = await Product.find({}).sort({ createdAt: -1 });
         return NextResponse.json(data);
     } catch (error) {
         return NextResponse.json({ error: 'Failed to read data' }, { status: 500 });
@@ -24,19 +14,17 @@ export async function GET() {
 
 export async function POST(request: Request) {
     try {
+        await dbConnect();
         const body = await request.json();
-        const data = readData();
 
         // Check if it's an update or new
-        const index = data.findIndex((p: any) => p.id === body.id);
-        if (index !== -1) {
-            data[index] = body;
-        } else {
-            data.push(body);
-        }
+        const updatedProduct = await Product.findOneAndUpdate(
+            { id: body.id },
+            body,
+            { new: true, upsert: true }
+        );
 
-        writeData(data);
-        return NextResponse.json({ success: true, product: body });
+        return NextResponse.json({ success: true, product: updatedProduct });
     } catch (error) {
         return NextResponse.json({ error: 'Failed to save data' }, { status: 400 });
     }
@@ -44,11 +32,16 @@ export async function POST(request: Request) {
 
 export async function DELETE(request: Request) {
     try {
+        await dbConnect();
         const { searchParams } = new URL(request.url);
         const id = searchParams.get('id');
-        let data = readData();
-        data = data.filter((p: any) => p.id !== id);
-        writeData(data);
+        
+        const result = await Product.deleteOne({ id });
+        
+        if (result.deletedCount === 0) {
+            return NextResponse.json({ error: 'Product not found' }, { status: 404 });
+        }
+        
         return NextResponse.json({ success: true });
     } catch (error) {
         return NextResponse.json({ error: 'Failed to delete data' }, { status: 400 });
