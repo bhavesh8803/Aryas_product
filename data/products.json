@@ -1,0 +1,509 @@
+[
+  {
+    "id": "s1",
+    "name": {
+      "en": "Rose Soap",
+      "hi": "गुलाब साबुन",
+      "mr": "गुलाब साबण"
+    },
+    "price": 50,
+    "discount": 9,
+    "rating": 4.9,
+    "category": "soaps",
+    "image": "/products/rose-soap-1.jpg",
+    "gallery": [
+      "/products/rose-soap-1.jpg",
+      "/products/rose-soap-2.jpg",
+      "/products/rose-soap-3.jpg"
+    ],
+    "description": "Premium handmade soap with organic rose extracts for soft and glowing skin. Wake up to freshness with the romantic essence of roses.",
+    "ingredients": "Saponified oils of Olive, Coconut, Palm & Glycerin, Rosa Damascena (Rose) Flower Water, Rose Essential Oil, Natural Fragrance",
+    "stockStatus": "In Stock",
+    "quantity": "1N"
+  },
+  {
+    "id": "s2",
+    "name": {
+      "en": "Lemon Soap",
+      "hi": "नींबू साबुन",
+      "mr": "लिंबू साबण"
+    },
+    "price": 50,
+    "discount": 9,
+    "rating": 4.8,
+    "category": "soaps",
+    "image": "/products/lemon-soap-1.jpg",
+    "gallery": [
+      "/products/lemon-soap-1.jpg",
+      "/products/lemon-soap-2.jpg",
+      "/products/lemon-soap-3.jpg"
+    ],
+    "description": "Refreshing lemon soap that cleanses and revitalizes your skin. Awaken your senses with the refreshing essence of lemon. Wake up to freshness.",
+    "ingredients": "Saponified oils of Olive, Coconut, Palm & Castor, Purified Water, Lemon Essential Oil, Lemon Peel Powder, Natural Fragrance",
+    "stockStatus": "In Stock",
+    "quantity": "1N"
+  },
+  {
+    "id": "s3",
+    "name": {
+      "en": "Sandal Soap",
+      "hi": "चंदन साबुन",
+      "mr": "चंदन साबण"
+    },
+    "price": 50,
+    "discount": 9,
+    "rating": 5,
+    "category": "soaps",
+    "image": "/products/sandal-soap-1.jpg",
+    "gallery": [
+      "/products/sandal-soap-1.jpg",
+      "/products/sandal-soap-2.jpg",
+      "/products/sandal-soap-3.jpg"
+    ],
+    "description": "Luxurious handmade sandalwood soap with natural skin-brightening properties. Awaken your senses with the natural essence of sandalwood. Wake up to freshness.",
+    "ingredients": "Saponified oils of Olive, Coconut, Palm & Sandalwood Powder, Sandalwood Essential Oil, Purified Water, Glycerin, Soap Base",
+    "stockStatus": "In Stock",
+    "quantity": "1N"
+  },
+  {
+    "id": "s4",
+    "name": {
+      "en": "Aloevera Soap",
+      "hi": "एलोवेरा साबुन",
+      "mr": "कोरफड साबण"
+    },
+    "price": 50,
+    "discount": 9,
+    "rating": 4.7,
+    "category": "soaps",
+    "image": "/products/aloevera-soap-1.jpg",
+    "gallery": [
+      "/products/aloevera-soap-1.jpg",
+      "/products/aloevera-soap-2.jpg"
+    ],
+    "description": "Natural aloevera soap for deeply hydrated and healthy skin. Revitalize your skin with the soothing power of Aloe Vera. Wake up to freshness.",
+    "ingredients": "Natural Aloe Vera Extract, Glycerin, Coconut Oil, Essential Oils, Soap Base",
+    "stockStatus": "In Stock",
+    "quantity": "1N"
+  },
+  {
+    "id": "spice1",
+    "name": {
+      "en": "Red Chilli Powder",
+      "hi": "लाल मिर्च पाउडर",
+      "mr": "लाल तिखट"
+    },
+    "price": 400,
+    "discount": 11,
+    "rating": 4.9,
+    "category": "spices",
+    "image": "/products/red-chilli-powder-front.jpg",
+    "gallery": [
+      "/products/red-chilli-powder-front.jpg",
+      "/products/red-chilli-powder-back.jpg"
+    ],
+    "description": "Authentic Red Chilli Powder (Lal Mirch Powder) - Preserving Tradition, Delivering Flavor. Arya's brings you premium quality spices, carefully sourced and hygienically processed to retain their natural colour, pungency, and aroma.",
+    "ingredients": "100% Dried Red Chilli",
+    "stockStatus": "In Stock",
+    "quantity": "500 g"
+  },
+  {
+    "id": "spice2",
+    "name": {
+      "en": "Turmeric Powder",
+      "hi": "हल्दी पाउडर",
+      "mr": "हळद पूड"
+    },
+    "price": 400,
+    "discount": 11,
+    "rating": 4.8,
+    "category": "spices",
+    "image": "/products/turmeric-powder-front.jpg",
+    "gallery": [
+      "/products/turmeric-powder-front.jpg",
+      "/products/turmeric-powder-back.jpg"
+    ],
+    "description": "Authentic Turmeric Powder (Haldi Powder) - Preserving Tradition, Delivering Flavor. Arya's brings you premium quality spices, carefully sourced and hygienically processed to retain their natural colour, pungency, and aroma.",
+    "ingredients": "100% Turmeric",
+    "stockStatus": "In Stock",
+    "quantity": "500 g"
+  },
+  {
+    "id": "spice3",
+    "name": {
+      "en": "Coriander Powder",
+      "hi": "धनिया पाउडर",
+      "mr": "धने पूड"
+    },
+    "price": 400,
+    "discount": 11,
+    "rating": 4.7,
+    "category": "spices",
+    "image": "/products/coriander-powder-front.jpg",
+    "gallery": [
+      "/products/coriander-powder-front.jpg",
+      "/products/coriander-powder-back.jpg"
+    ],
+    "description": "Authentic Coriander Powder - Preserving Tradition, Delivering Flavor. Arya's brings you premium quality spices, carefully sourced and hygienically processed to retain their natural colour, pungency, and aroma.",
+    "ingredients": "100% Coriander",
+    "stockStatus": "In Stock",
+    "quantity": "500 g"
+  },
+  {
+    "id": "spice4",
+    "name": {
+      "en": "Kanda Lasun Masala",
+      "hi": "कांदा लहसुन मसाला",
+      "mr": "कांदा लसूण मसाला"
+    },
+    "price": 240,
+    "discount": 11,
+    "rating": 5,
+    "category": "spices",
+    "image": "/products/kanda-lasun-masala-front.jpg",
+    "gallery": [
+      "/products/kanda-lasun-masala-front.jpg",
+      "/products/kanda-lasun-masala-back.jpg"
+    ],
+    "description": "Authentic Maharashtrian Kanda Lasun Masala (Onion Garlic Masala) - bringing you premium quality spices, carefully sourced and hygienically processed.",
+    "ingredients": "Onion, Garlic, Red Chilli, Coriander, Cumin, Spices & Salt",
+    "stockStatus": "In Stock",
+    "quantity": "500 g"
+  },
+  {
+    "id": "spice5",
+    "name": {
+      "en": "Ghati Masala",
+      "hi": "घाटी मसाला",
+      "mr": "घाटी मसाला"
+    },
+    "price": 400,
+    "discount": 11,
+    "rating": 4.9,
+    "category": "spices",
+    "image": "/products/ghati-masala-front.jpg",
+    "gallery": [
+      "/products/ghati-masala-front.jpg",
+      "/products/ghati-masala-back.jpg"
+    ],
+    "description": "Authentic Ghati Masala - Preserving Tradition, Delivering Flavor. Arya's brings you premium quality spices, carefully sourced and hygienically processed to retain their natural aroma, colour, and taste.",
+    "ingredients": "Onion, Garlic, Red Chilli, Coriander, Cumin, Spices & Salt",
+    "stockStatus": "In Stock",
+    "quantity": "500 g"
+  },
+  {
+    "id": "spice6",
+    "name": {
+      "en": "Kadhi Masala",
+      "hi": "कढ़ी मसाला",
+      "mr": "कढी मसाला"
+    },
+    "price": 400,
+    "discount": 11,
+    "rating": 4.7,
+    "category": "spices",
+    "image": "/products/kadhi-masala-front.jpg",
+    "gallery": [
+      "/products/kadhi-masala-front.jpg",
+      "/products/kadhi-masala-back.jpg"
+    ],
+    "description": "Authentic Kadhi Masala - Preserving Tradition, Delivering Flavor. Arya's brings you premium quality spices, carefully sourced and hygienically processed to add an authentic aromatic taste to your Kadhi.",
+    "ingredients": "Coriander, Cumin, Fenugreek, Turmeric, Black Pepper, Dry Chili, Curry Leaves, Mustard Seeds, Asafoetida, Cardamom, Cloves, Cinnamon, Star Anise, Salt",
+    "stockStatus": "In Stock",
+    "quantity": "100 g"
+  },
+  {
+    "id": "spice7",
+    "name": {
+      "en": "Malwani Masala",
+      "hi": "मालवणी मसाला",
+      "mr": "मालवणी मसाला"
+    },
+    "price": 400,
+    "discount": 11,
+    "rating": 4.9,
+    "category": "spices",
+    "image": "/products/malwani-masala-front.jpg",
+    "gallery": [
+      "/products/malwani-masala-front.jpg",
+      "/products/malwani-masala-back.jpg"
+    ],
+    "description": "Authentic Malwani Masala - Preserving Tradition, Delivering Flavor. Arya's brings you premium quality spices, carefully sourced and hygienically processed.",
+    "ingredients": "Coriander, Red Chilli, Black Pepper, Cumin, Turmeric, Bay Leaf, Clove, Cardamom, Star Anise, Cinnamon, Fennel, Stone Flower",
+    "stockStatus": "In Stock",
+    "quantity": "500 g"
+  },
+  {
+    "id": "spice8",
+    "name": {
+      "en": "Chicken Masala",
+      "hi": "चिकन मसाला",
+      "mr": "चिकन मसाला"
+    },
+    "price": 400,
+    "discount": 11,
+    "rating": 4.8,
+    "category": "spices",
+    "image": "/products/chicken-masala-front.jpg",
+    "gallery": [
+      "/products/chicken-masala-front.jpg",
+      "/products/chicken-masala-back.jpg"
+    ],
+    "description": "Authentic Chicken Masala - Preserving Tradition, Delivering Flavor. Arya's brings you premium quality spices, carefully sourced and hygienically processed to retain their natural aroma, colour, and taste.",
+    "ingredients": "Onion, Garlic, Red Chilli, Coriander, Cumin, Spices & Salt",
+    "stockStatus": "In Stock",
+    "quantity": "500 g"
+  },
+  {
+    "id": "spice9",
+    "name": {
+      "en": "Sambar Masala",
+      "hi": "सांभर मसाला",
+      "mr": "सांभर मसाला"
+    },
+    "price": 400,
+    "discount": 11,
+    "rating": 4.7,
+    "category": "spices",
+    "image": "/products/sambar-masala-front.jpg",
+    "gallery": [
+      "/products/sambar-masala-front.jpg",
+      "/products/sambar-masala-back.jpg"
+    ],
+    "description": "Authentic Sambar Masala - Preserving Tradition, Delivering Flavor. Arya's brings you premium quality spices, carefully sourced and hygienically processed to retain their natural aroma, colour, and taste.",
+    "ingredients": "Onion, Coriander, Coconut, Guntur Chilli, Toor Dal, Cumin, Black Pepper, Turmeric, Fenugreek, Mustard, Curry Leaves, Spices & Salt",
+    "stockStatus": "In Stock",
+    "quantity": "500 g"
+  },
+  {
+    "id": "spice10",
+    "name": {
+      "en": "Pav Bhaji Masala",
+      "hi": "पाव भाजी मसाला",
+      "mr": "पाव भाजी मसाला"
+    },
+    "price": 400,
+    "discount": 11,
+    "rating": 4.9,
+    "category": "spices",
+    "image": "/products/pav-bhaji-masala-front.jpg",
+    "gallery": [
+      "/products/pav-bhaji-masala-front.jpg",
+      "/products/pav-bhaji-masala-back.jpg"
+    ],
+    "description": "Authentic Pav Bhaji Masala - Preserving Tradition, Delivering Flavor. Arya's brings you premium quality spices, carefully sourced and hygienically processed to retain their natural aroma, colour, and taste—adding authentic flavour to every meal.",
+    "ingredients": "Onion, Garlic, Red Chilli, Coriander, Cumin, Spices & Salt",
+    "stockStatus": "In Stock",
+    "quantity": "500 g"
+  },
+  {
+    "id": "premix1",
+    "name": {
+      "en": "Khamang Thalipeeth Bhajani",
+      "hi": "खमंग थालीपीठ भाजणी",
+      "mr": "खमंग थालीपीठ भाजणी"
+    },
+    "price": 130,
+    "discount": 13,
+    "rating": 4.9,
+    "category": "premixes",
+    "image": "/products/thalipeeth-bhajani-front.jpg",
+    "gallery": [
+      "/products/thalipeeth-bhajani-front.jpg",
+      "/products/thalipeeth-bhajani-back.jpg"
+    ],
+    "description": "Authentic Khamang Thalipeeth Bhajani - Preserving Tradition, Delivering Flavor. Arya's brings you premium quality Thalipeeth Bhajani mix, carefully crafted using a blend of multiple grains to help you prepare nutritious and delicious Thalipeeth Dhokla.",
+    "ingredients": "Jowar, Bajra, Chana Dal, Moong Dal, Poha, Whole Wheat, Rice, Fenugreek Seeds, Coriander Seeds, Cumin Seeds, Carom Seeds, Salt & Spices",
+    "stockStatus": "In Stock",
+    "quantity": "500 g"
+  },
+  {
+    "id": "premix2",
+    "name": {
+      "en": "Multigrain khaman Dhokla",
+      "hi": "मल्टीग्रेन खमन ढोकला",
+      "mr": "मल्टीग्रेन खमण ढोकळा"
+    },
+    "price": 130,
+    "discount": 13,
+    "rating": 4.8,
+    "category": "premixes",
+    "image": "/products/khaman-dhokla-front.jpg",
+    "gallery": [
+      "/products/khaman-dhokla-front.jpg",
+      "/products/khaman-dhokla-back.jpg"
+    ],
+    "description": "Authentic Multigrain Khaman Dhokla - Preserving Tradition, Delivering Flavor. Arya's brings you premium quality dhokla mix, carefully crafted using a blend of multiple grains to bring you a more nutritious and delicious khaman Dhokla.",
+    "ingredients": "Chana Dal, Moong Dal, Urad Dal, Rice, Foxtail Millet, Bajra, Sorghum, Spices, Salt, Raising Agents (E500ii, E500i), Sugar & Citric Acid",
+    "stockStatus": "In Stock",
+    "quantity": "500 g"
+  },
+  {
+    "id": "pickle1",
+    "name": {
+      "en": "Mango Pickle",
+      "hi": "आम का अचार",
+      "mr": "आंबा लोणचे"
+    },
+    "price": 750,
+    "discount": 0,
+    "rating": 4.9,
+    "category": "pickles",
+    "image": "/products/mango-pickle-portrait.png",
+    "gallery": [
+      "/products/mango-pickle-portrait.png",
+      "/products/mango-pickle-lifestyle.jpg"
+    ],
+    "description": "Authentic Home Made Mango Pickle - Preserving Tradition, Delivering Flavor. Made with hand-picked raw mangoes and a secret blend of spices for that perfect spicy and tangy kick.",
+    "ingredients": "Raw Mango, Mustard Oil, Red Chilli Powder, Mustard Seeds, Fenugreek, Spices, Salt",
+    "stockStatus": "In Stock",
+    "quantity": "1 Kg"
+  },
+  {
+    "id": "pickle2",
+    "name": {
+      "en": "Gujrati Chunda",
+      "hi": "गुजराती छंदा",
+      "mr": "गुजराती छुंदा"
+    },
+    "price": 300,
+    "discount": 14,
+    "rating": 5,
+    "category": "pickles",
+    "image": "/products/gujrati-chunda-portrait.png",
+    "gallery": [
+      "/products/gujrati-chunda-portrait.png",
+      "/products/gujrati-chunda-lifestyle.jpg"
+    ],
+    "description": "Authentic Home Made Gujrati Chunda - Preserving Tradition, Delivering Flavor. A sweet and spicy sun-dried mango pickle made with premium quality ingredients for that perfect nostalgic taste.",
+    "ingredients": "Raw Mango, Jaggery, Chilli Powder, Salt, Cloves, Cinnamon, Green Cardamom, Spices, Oil",
+    "stockStatus": "In Stock",
+    "quantity": "1 Kg"
+  },
+  {
+    "id": "spice11",
+    "name": {
+      "en": "Mutton Masala",
+      "hi": "मटन मसाला",
+      "mr": "मटण मसाला"
+    },
+    "price": 400,
+    "discount": 11,
+    "rating": 4.8,
+    "category": "spices",
+    "image": "/products/mutton-masala-front-v3.png",
+    "gallery": [
+      "/products/mutton-masala-front-v3.png",
+      "/products/mutton-masala-back-v3.png"
+    ],
+    "description": "Arya's brings you premium quality spices, carefully sourced and hygienically processed to enhance the rich taste, aroma, and flavor of every mutton dish. Preserving Tradition, Delivering Flavor.",
+    "ingredients": "Red Chilli, Coriander, Cumin, Black Pepper, Turmeric, Clove, Cardamom, Cinnamon, Bay Leaf, Star Anise, Mace, Nutmeg",
+    "stockStatus": "In Stock",
+    "quantity": "500 g"
+  },
+  {
+    "id": "spice12",
+    "name": {
+      "en": "Biryani Masala",
+      "hi": "बिरयानी मसाला",
+      "mr": "बिर्याणी मसाला"
+    },
+    "price": 400,
+    "discount": 11,
+    "rating": 4.9,
+    "category": "spices",
+    "image": "/products/biryani-masala-front.png",
+    "gallery": [
+      "/products/biryani-masala-front.png",
+      "/products/biryani-masala-back.png"
+    ],
+    "description": "Arya's brings you premium quality spices, carefully sourced and hygienically processed to bring out the true essence and taste of every biryani dish. Aromatic, Authentic, and Flavorful.",
+    "ingredients": "Coriander, Red Chilli, Cumin, Black Pepper, Turmeric, Bay Leaf, Cardamom, Cinnamon, Fennel, Mace, Star Anise, Cloves, Nutmeg",
+    "stockStatus": "In Stock",
+    "quantity": "500 g"
+  },
+  {
+    "id": "spice13",
+    "name": {
+      "en": "Kitchen King Masala",
+      "hi": "किचन किंग मसाला",
+      "mr": "किचन किंग मसाला"
+    },
+    "price": 400,
+    "discount": 11,
+    "rating": 4.7,
+    "category": "spices",
+    "image": "/products/kitchen-king-masala-front.png",
+    "gallery": [
+      "/products/kitchen-king-masala-front.png",
+      "/products/kitchen-king-masala-back.png"
+    ],
+    "description": "Arya's brings you premium quality spices, carefully sourced and hygienically processed to enhance the flavor and aroma of every dish. Preserving Tradition, Delivering Flavor.",
+    "ingredients": "Coriander, Red Chilli, Cumin, Turmeric, Fenugreek, Bay Leaf, Black Pepper, Cinnamon, Dried Ginger, Clove, Nutmeg, Mace",
+    "stockStatus": "In Stock",
+    "quantity": "500 g"
+  },
+  {
+    "id": "spice14",
+    "name": {
+      "en": "Peri Peri Masala",
+      "hi": "पेरी पेरी मसाला",
+      "mr": "पेरी पेरी मसाला"
+    },
+    "price": 400,
+    "discount": 11,
+    "rating": 4.8,
+    "category": "spices",
+    "image": "/products/peri-peri-masala-front.png",
+    "gallery": [
+      "/products/peri-peri-masala-front.png",
+      "/products/peri-peri-masala-back.png"
+    ],
+    "description": "Arya's brings you premium quality spices, carefully sourced and hygienically processed to add a bold, spicy, and tangy taste to every dish. Preserving Tradition, Delivering Flavor.",
+    "ingredients": "Red Chilli, Paprika, Garlic Powder, Black Pepper, Oregano, Chilli Flakes, Onion Powder, Cumin, Salt, Mixed Herbs, Lemon Powder",
+    "stockStatus": "In Stock",
+    "quantity": "500 g"
+  },
+  {
+    "id": "pickle3",
+    "name": {
+      "en": "Lemon Pickle",
+      "hi": "नींबू का अचार",
+      "mr": "लिंबू लोणचे"
+    },
+    "price": 300,
+    "discount": 14,
+    "rating": 4.9,
+    "category": "pickles",
+    "image": "/products/lemon-pickle-v2.png",
+    "gallery": [
+      "/products/lemon-pickle-v2.png",
+      "/products/lemon-pickle.png"
+    ],
+    "description": "Authentic Home Made Lemon Pickle - Preserving Tradition, Delivering Flavor. Made with hand-picked lemons and a secret blend of spices for that perfect tangy kick.",
+    "ingredients": "Lemon, Mustard Seeds, Red Chilli Powder, Turmeric, Salt, Spices, Oil",
+    "stockStatus": "In Stock",
+    "quantity": "1 Kg"
+  },
+  {
+    "id": "pickle4",
+    "name": {
+      "en": "Lemon Chilli Pickle",
+      "hi": "नींबू मिर्च का अचार",
+      "mr": "लिंबू मिरची लोणचे"
+    },
+    "price": 300,
+    "discount": 14,
+    "rating": 4.8,
+    "category": "pickles",
+    "image": "/products/lemon-chilli-pickle-portrait.png",
+    "gallery": [
+      "/products/lemon-chilli-pickle-portrait.png",
+      "/products/lemon-chilli-pickle-lifestyle.jpg"
+    ],
+    "description": "Authentic Home Made Lemon Chilli Pickle - Preserving Tradition, Delivering Flavor. A zesty and fiery blend of juicy lemons and spicy green chillies, crafted with traditional methods.",
+    "ingredients": "Lemon, Green Chilli, Mustard Oil, Red Chilli Powder, Mustard Seeds, Turmeric, Fenugreek, Spices, Salt",
+    "stockStatus": "In Stock",
+    "quantity": "1 Kg"
+  }
+]
