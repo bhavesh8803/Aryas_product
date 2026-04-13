@@ -1,0 +1,30 @@
+services:
+  # Backend API service
+  - type: web
+    name: aryas-backend
+    env: node
+    plan: free
+    rootDir: backend
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: MONGODB_URI
+        sync: false # User will provide this in the dashboard
+      - key: PORT
+        value: 10000
+
+  # Frontend Next.js service
+  - type: web
+    name: aryas-frontend
+    env: node
+    plan: free
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NEXT_PUBLIC_API_URL
+        fromService:
+          name: aryas-backend
+          type: web
+          property: host
+        value: "https://${HOST}/api"
