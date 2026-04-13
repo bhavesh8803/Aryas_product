@@ -18,7 +18,7 @@ router.post('/', async (req, res) => {
     try {
         const body = req.body;
         const updatedCategory = await Category.findOneAndUpdate(
-            { id: body.id },
+            { id: body.id } as any,
             body,
             { new: true, upsert: true }
         );
