@@ -31,7 +31,7 @@ router.post('/', async (req, res) => {
 // DELETE category
 router.delete('/', async (req, res) => {
     try {
-        const id = req.query.id;
+        const id = req.query.id as string;
         const result = await Category.deleteOne({ id });
         
         if (result.deletedCount === 0) {

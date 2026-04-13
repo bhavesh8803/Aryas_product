@@ -31,7 +31,7 @@ router.post('/', async (req, res) => {
 // DELETE product
 router.delete('/', async (req, res) => {
     try {
-        const id = req.query.id;
+        const id = req.query.id as string;
         const result = await Product.deleteOne({ id });
         
         if (result.deletedCount === 0) {
