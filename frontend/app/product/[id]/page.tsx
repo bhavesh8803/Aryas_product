@@ -5,6 +5,7 @@ import { useParams, useRouter } from 'next/navigation';
 import { useI18n } from '@/lib/i18n';
 import { useCart } from '@/lib/cart';
 import Image from 'next/image';
+import { API_URL } from '@/lib/api';
 
 interface Product {
     id: string;
@@ -35,7 +36,7 @@ export default function ProductDetails() {
     useEffect(() => {
         const fetchProduct = async () => {
             try {
-                const res = await fetch(`/api/products?t=${Date.now()}`);
+                const res = await fetch(`${API_URL}/products?t=${Date.now()}`);
                 const data = await res.json();
                 const found = data.find((p: any) => p.id === id);
                 if (found) {

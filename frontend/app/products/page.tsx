@@ -5,6 +5,7 @@ import { useSearchParams } from 'next/navigation';
 import { useI18n } from '@/lib/i18n';
 import ProductCard from '@/components/ProductCard';
 import QuickViewModal from '@/components/QuickViewModal';
+import { API_URL } from '@/lib/api';
 
 function ProductsList() {
     const searchParams = useSearchParams();
@@ -21,8 +22,8 @@ function ProductsList() {
         const fetchData = async () => {
             try {
                 const [prodRes, catRes] = await Promise.all([
-                    fetch('/api/products'),
-                    fetch('/api/categories')
+                    fetch(`${API_URL}/products`),
+                    fetch(`${API_URL}/categories`)
                 ]);
                 const [prodData, catData] = await Promise.all([
                     prodRes.json(),

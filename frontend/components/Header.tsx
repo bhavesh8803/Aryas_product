@@ -5,6 +5,7 @@ import { useI18n } from '../lib/i18n';
 import { useCart } from '../lib/cart';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
+import { API_URL } from '../lib/api';
 
 import LoginModal from './LoginModal';
 
@@ -18,7 +19,7 @@ export default function Header() {
 
     useEffect(() => {
         const fetchCategories = async () => {
-            const res = await fetch('/api/categories');
+            const res = await fetch(`${API_URL}/categories`);
             const data = await res.json();
             setCategories(data);
         };

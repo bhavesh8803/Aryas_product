@@ -10,6 +10,7 @@ import { useI18n } from '../lib/i18n';
 import Link from 'next/link';
 
 import QuickViewModal from '../components/QuickViewModal';
+import { API_URL } from '../lib/api';
 
 export default function Home() {
   const { language, t } = useI18n();
@@ -22,8 +23,8 @@ export default function Home() {
     const fetchData = async () => {
       try {
         const [prodRes, catRes] = await Promise.all([
-          fetch(`/api/products?t=${Date.now()}`),
-          fetch(`/api/categories?t=${Date.now()}`)
+          fetch(`${API_URL}/products?t=${Date.now()}`),
+          fetch(`${API_URL}/categories?t=${Date.now()}`)
         ]);
         const [prodData, catData] = await Promise.all([
           prodRes.json(),

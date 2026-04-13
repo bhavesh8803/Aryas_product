@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { useI18n } from '@/lib/i18n';
 import Image from 'next/image';
+import { API_URL } from '@/lib/api';
 
 interface Category {
     id: string;
@@ -42,8 +43,8 @@ export default function AdminPanel() {
     const fetchData = async () => {
         setLoading(true);
         const [prodRes, catRes] = await Promise.all([
-            fetch('/api/products'),
-            fetch('/api/categories')
+            fetch(`${API_URL}/products`),
+            fetch(`${API_URL}/categories`)
         ]);
         const [prodData, catData] = await Promise.all([
             prodRes.json(),
@@ -56,21 +57,21 @@ export default function AdminPanel() {
 
     const handleProductDelete = async (id: string) => {
         if (confirm('Are you sure you want to delete this product?')) {
-            await fetch(`/api/products?id=${id}`, { method: 'DELETE' });
+            await fetch(`${API_URL}/products?id=${id}`, { method: 'DELETE' });
             fetchData();
         }
     };
 
     const handleCategoryDelete = async (id: string) => {
         if (confirm('Are you sure you want to delete this category? This might affect products!')) {
-            await fetch(`/api/categories?id=${id}`, { method: 'DELETE' });
+            await fetch(`${API_URL}/categories?id=${id}`, { method: 'DELETE' });
             fetchData();
         }
     };
 
     const handleProductSave = async (e: React.FormEvent) => {
         e.preventDefault();
-        await fetch('/api/products', {
+        await fetch(`${API_URL}/products`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(editingProduct),
@@ -82,7 +83,7 @@ export default function AdminPanel() {
 
     const handleCategorySave = async (e: React.FormEvent) => {
         e.preventDefault();
-        await fetch('/api/categories', {
+        await fetch(`${API_URL}/categories`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(editingCategory),

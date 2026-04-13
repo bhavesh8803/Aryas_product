@@ -1,0 +1,25 @@
+{
+  "name": "aryas-food-products-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Aryas Food Products",
+  "main": "server.ts",
+  "scripts": {
+    "dev": "tsx watch server.ts",
+    "start": "node dist/server.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^9.4.1",
+    "mongodb": "^7.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^20.17.15",
+    "@types/cors": "^2.8.17",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
