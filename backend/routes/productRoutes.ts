@@ -32,7 +32,7 @@ router.post('/', async (req, res) => {
 router.delete('/', async (req, res) => {
     try {
         const id = req.query.id as string;
-        const result = await Product.deleteOne({ id });
+        const result = await Product.deleteOne({ id } as any);
         
         if (result.deletedCount === 0) {
             return res.status(404).json({ error: 'Product not found' });
