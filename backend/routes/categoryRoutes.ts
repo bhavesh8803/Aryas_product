@@ -6,7 +6,7 @@ const router = express.Router();
 // GET all categories
 router.get('/', async (req, res) => {
     try {
-        const data = await Category.find({}).sort({ count: -1 });
+        const data = await Category.find({} as any).sort({ count: -1 });
         res.json(data);
     } catch (error) {
         res.status(500).json({ error: 'Failed to read data' });

@@ -6,7 +6,7 @@ const router = express.Router();
 // GET all products
 router.get('/', async (req, res) => {
     try {
-        const data = await Product.find({}).sort({ createdAt: -1 });
+        const data = await Product.find({} as any).sort({ createdAt: -1 });
         res.json(data);
     } catch (error) {
         res.status(500).json({ error: 'Failed to read data' });

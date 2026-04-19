@@ -39,6 +39,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${inter.variable} ${poppins.variable} font-sans flex flex-col min-h-screen`}
+        suppressHydrationWarning={true}
       >
         <I18nProvider>
           <CartProvider>
